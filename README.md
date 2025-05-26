@@ -48,5 +48,5 @@ restaurant-menu
 
 1 Clone this repository:
 
-git clone https://github.com/yourusername/restaurant-menu.git
+git clone https://github.com/RaginiSingh2024/restaurant-menu.git
 

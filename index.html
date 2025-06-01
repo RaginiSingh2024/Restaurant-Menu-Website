@@ -2,94 +2,356 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Delish Dine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GrillPoint</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="navbar">
-    <h1>Delish Dine</h1>
-    <nav>
-      <a href="#menu">Menu</a>
-      <a href="#about">About</a>
-      <a href="#location">Location</a>
-    </nav>
+  <header>
+    <div class="navbar">
+      <div class="logo"><span class="icon">🍴</span> GrillPoint</div>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">MENU</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+      <button class="book-btn">BOOK A TABLE</button>
+    </div>
   </header>
 
-  <section class="banner">
-    <h2>Welcome to Delish Dine</h2>
-    <p>Delicious memories served fresh!</p>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Where Fire<br />Meets Flavor</h1>
+      <p>
+        At GrillPoint, we bring the essence of authentic flame-grilled perfection to your plate.
+        Whether you crave smoky steaks, sizzling skewers, or juicy burgers, our chefs craft each dish with passion and precision. Set in a warm and inviting ambiance, GrillPoint is your destination for hearty meals, good vibes, and unforgettable dining moments.
+      </p>
+      <button class="book-btn" style="font-size: 25px;">BOOK A TABLE</button>
+    </div>
+    <div class="hero-img">
+      <img src="https://i.pinimg.com/736x/f0/7c/d8/f07cd89893aa04d5a0e21623bec7b4b0.jpg" alt="Grill Food" />
+    </div>
   </section>
 
-  <section id="menu" class="menu-section">
-    <h2>Our Menu</h2>
-
-    <div class="menu-category">
-      <h3>Starters</h3>
-      <div class="menu-items">
-        <div class="card recommended">
-          <h4>Garlic Bread</h4>
-          <p>Toasted bread with garlic and herbs.</p>
-          <span>$5</span>
-          <span class="badge">Recommended</span>
-        </div>
-        <div class="card">
-          <h4>Tomato Soup</h4>
-          <p>Classic creamy tomato soup.</p>
-          <span>$4</span>
-        </div>
-      </div>
+  <section id="features" class="features-section">
+    <div class="feature-card highlight">
+      <i class="icon">👨‍🍳</i>
+      <h3>Master Chefs</h3>
+      <p>Our chefs bring decades of culinary expertise to create mouthwatering, flame-grilled dishes.</p>
     </div>
-
-    <div class="menu-category">
-      <h3>Main Course</h3>
-      <div class="menu-items">
-        <div class="card">
-          <h4>Grilled Chicken</h4>
-          <p>Juicy chicken breast with herbs.</p>
-          <span>$12</span>
-        </div>
-        <div class="card recommended">
-          <h4>Paneer Tikka</h4>
-          <p>Spicy grilled paneer cubes.</p>
-          <span>$10</span>
-          <span class="badge">Recommended</span>
-        </div>
-      </div>
+    <div class="feature-card">
+      <i class="icon">🍽️</i>
+      <h3>Quality Food</h3>
+      <p>Only the finest and freshest ingredients go into every plate we serve.</p>
     </div>
-
-    <div class="menu-category">
-      <h3>Desserts</h3>
-      <div class="menu-items">
-        <div class="card">
-          <h4>Chocolate Lava Cake</h4>
-          <p>Warm cake with molten chocolate.</p>
-          <span>$6</span>
-        </div>
-        <div class="card recommended">
-          <h4>Ice Cream Sundae</h4>
-          <p>Vanilla, chocolate, and strawberry scoops.</p>
-          <span>$5</span>
-          <span class="badge">Recommended</span>
-        </div>
-      </div>
+    <div class="feature-card">
+      <i class="icon">🛒</i>
+      <h3>Online Order</h3>
+      <p>Order your favorite meals from the comfort of your home with just a few clicks.</p>
+    </div>
+    <div class="feature-card">
+      <i class="icon">🎧</i>
+      <h3>24/7 Service</h3>
+      <p>Our team is here around the clock to serve you whenever hunger strikes.</p>
     </div>
   </section>
 
   <section id="about" class="about-section">
-    <h2>About Us</h2>
-    <p>Delish Dine started in 2010 with a mission to bring homemade taste to your table. Our passion is good food and great memories.</p>
+    <div class="about-images">
+      <img src="https://i.pinimg.com/736x/8c/b4/fc/8cb4fc604e2249a8ea7ea946693e2c94.jpg" alt="GrillPoint Interior">
+      <img src="https://i.pinimg.com/736x/68/7e/16/687e16b383db5a854552169aacf463e5.jpg" alt="Dining Area">
+      <img src="https://i.pinimg.com/736x/59/e0/7a/59e07a7b08a4243cc892709224a0b387.jpg" alt="GrillPoint Interior">
+      <img src="https://i.pinimg.com/736x/52/fa/b3/52fab38a53e251d559ea64da037ed0f0.jpg" alt="Dining Area">
+    </div>
+    <div class="about-text">
+      <h2>About Us</h2>
+      <h3>Welcome to <span class="brand">GrillPoint</span></h3>
+      <p>where passion meets the flame! With over a decade of culinary excellence, Grill Point brings you the authentic taste of perfectly grilled delicacies in a cozy and vibrant setting. Our chefs specialize in crafting bold, smoky flavors that celebrate both traditional and modern grilling techniques. From succulent kebabs and flame-grilled chicken to gourmet burgers and sizzling platters, each dish is a celebration of freshness and flavor. Whether you're gathering with family, dining with friends, or just craving something extraordinary, Grill Point promises an unforgettable food experience that keeps you coming back for more..</p><br>
+      <p>At Grill Point, quality is at the heart of everything we serve. We carefully source the freshest local produce, premium cuts of meat, and globally inspired ingredients to craft a menu that caters to every palate. Our open-flame grilling method not only locks in the natural juices and flavor but also adds that irresistible charred finish that defines our signature dishes. Vegetarian or non-vegetarian, spicy or mild, there’s something here to excite every taste bud.</p>
+    </div>
   </section>
+  <div class="tabs">
+    <div class="tab active">
+      <span class="icon">☕</span>
+      <div>
+        <div class="small-text">Popular</div>
+        <div class="large-text">Breakfast</div>
+      </div>
+    </div>
+    <div class="tab">
+      <span class="icon">🍔</span>
+      <section id="food-list">
+        <div class="small-text">Special</div>
+        <div class="large-text">Launch</div>
+      </div>
+    </section>
+    <div class="tab">
+      <span class="icon">🍽️</span>
+      <section id="food-list">
+        <div class="small-text">Lovely</div>
+        <div class="large-text">Dinner</div>
+      </div>
+    </section>
+  </div>
 
-  <section id="location" class="location-section">
-    <h2>Find Us</h2>
-    <p>123 Food Street, Flavor Town, USA</p>
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019847294416!2d-122.42177828468143!3d37.77492977975927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5f6a51cd%3A0x2a2c0c6e6eb4e58a!2sSan%20Francisco!5e0!3m2!1sen!2sus!4v1600000000000"
-      width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy">
-    </iframe>
+  <div class="menu-container">
+    <!-- Menu items -->
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/1a/cf/b8/1acfb88db086cbec7dde3b31a5512e8f.jpg" alt="Menu Image" />
+      <div class="item-details">
+        <h4>Chicken Burger</h4>
+        <p>A chicken burger is a delicious sandwich made with a juicy, tender chicken patty served inside a soft bun.</p>
+      </div>
+      <div class="price">$115</div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/a3/a1/28/a3a1283d62ac2cbd6457feebf75ac809.jpg" alt="Menu Image" />
+      <div class="item-details">
+        <h4>Grilled Pasta</h4>
+        <p>Pasta tossed with veggies, cheese, and a rich sauce, then grilled for a slightly crisp finish and smoky aroma.</p>
+      </div>
+      <div class="price">$120</div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/eb/bd/9e/ebbd9e57b0df3df74098261069a2f48c.jpg" alt="Menu Image" />
+      <div class="item-details">
+        <h4>Veggie Delight</h4>
+        <p>A colorful medley of grilled seasonal vegetables, tossed in herbs and olive oil—light, healthy, and bursting with flavor.</p>
+      </div>
+      <div class="price">$99</div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/59/7d/bf/597dbf0415d30ff0f2d9509c9014eeed.jpg" alt="Menu Image" />
+      <div class="item-details">
+        <h4>Pizza Margherita</h4>
+        <p>A fiery twist on the classic Margherita—topped with spicy tomato sauce, fresh basil, and melted mozzarella.</p>
+      </div>
+      <div class="price">$135</div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/e6/48/ea/e648ea49a83d3e177137588ee4974ddc.jpg" alt="Menu Image" />
+      <div class="item-details">
+        <h4>Beef Steak</h4>
+        <p>Juicy, tender beef steak grilled to perfection and served with a side of sautéed veggies and rich peppercorn sauce.</p>
+      </div>
+      <div class="price">$150</div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/f3/e7/cc/f3e7cc62b5d13b70b1e333a3c5079e40.jpg" alt="Menu Image" />
+      <div class="item-details">
+        <h4>Fish & Chips</h4>
+        <p>Crispy battered fish served with chunky fries, tartar sauce, and a lemon wedge for the perfect British bite.
+
+        </p>
+      </div>
+      <div class="price">$110</div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/73/7e/d9/737ed93987aae98a76fc2e5f12fc0ecc.jpg" alt="Menu Image" />
+      <div class="item-details">
+        <h4>French Fries</h4>
+        <p>Golden and crispy on the outside, soft on the inside—classic fries seasoned with a special house blend of spices.</p>
+      </div>
+      <div class="price">$50</div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/01/0c/b0/010cb090073f035fa373185818c839f4.jpg" alt="Menu Image" />
+      <div class="item-details">
+        <h4>Club Sandwich</h4>
+        <p>Triple-layered sandwich stacked with grilled chicken, cheese, lettuce, tomato, and a hint of mustard—served with fries.</p>
+      </div>
+      <div class="price">$90</div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/d2/15/1b/d2151bf684222e0aceebfe6edbde1c91.jpg" alt="Menu Image" />
+      <div class="item-details">
+        <h4>Grilled Chicken</h4>
+        <p>Succulent chicken marinated in signature spices and flame-grilled for that smoky, savory taste.</p>
+      </div>
+      <div class="price">$125</div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://i.pinimg.com/736x/88/9a/e8/889ae8aeb0d9533a953e7924a9f08651.jpg" alt="Menu Image" />
+      <div class="item-details">
+        <h4>Cheese Omelette</h4>
+        <p>Fluffy eggs folded with melted cheese and herbs—perfectly seasoned and served hot off the pan.
+
+        </p>
+      </div>
+      <div class="price">$70</div>
+    </div>
+  </div>
+
+
+
+  <div class="reservation-container"></div>
+    <div class="left-section">
+      <img src="https://i.pinimg.com/736x/d7/23/6b/d7236b658b8a535c34d780127957ee47.jpg"  alt="Dining" />
+      <div class="play-button">&#9658;</div>
+    </div>
+
+    <div class="right-section">
+      <h3 class="subheading">Reservation</h3>
+      <h1 class="heading">Book A Table Online</h1>
+      <form class="reservation-form">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-row">
+          <input type="datetime-local" required />
+          <select required>
+            <option>People 1</option>
+            <option>People 2</option>
+            <option>People 3</option>
+            <option>People 4</option>
+            <option>People 5+</option>
+          </select>
+        </div>
+        <textarea placeholder="Special Request"></textarea>
+        <button type="submit">BOOK NOW</button>
+      </form>
+    </div>
+  </div>
+
+  <section class="team-section"></section>
+    <h4 class="subtitle">Team Members</h4>
+    <h2 class="title">Our Master Chefs</h2>
+
+    <div class="team-container">
+      <div class="team-card">
+        <img src="https://i.pinimg.com/736x/d2/35/47/d2354797cfb995122e8bf0248cb1fd76.jpg" alt="Chef 1">
+        <h3> Chef Rohan M.</h3>
+        <p>Sous Chef (Specialty: Continental & Charcoal Grills)
+            Chef Rohan is the grill master behind the scenes, ensuring each sizzle meets smoky perfection. His attention to detail adds depth to every bite.</p>
+      </div>
+      <div class="team-card">
+        <img src="https://i.pinimg.com/736x/d3/c4/2c/d3c42c4d91c6d24b89bf8ab2175e9f75.jpg" alt="Chef 2">
+        <h3>Chef Anaya R.</h3>
+        <p>Head Chef (Specialty: Indian Grills & Fusion Cuisine)
+            With a passion for spices and perfection, Chef Anaya leads the kitchen with creativity and precision. Her signature marinades are the heart of GrillPoint’s bold flavors.</p>
+      </div>
+      <div class="team-card">
+        <img src="https://i.pinimg.com/736x/bb/86/1d/bb861dd55a24b83d1a9e5a1f66bc71e5.jpg" alt="Chef 3">
+        <h3>Chef Aarav T.</h3>
+        <p>Junior Chef (Specialty: Starters & Signature Sauces)
+            Energetic and experimental, Chef Aarav plays a key role in flavor pairing and crafting house-made sauces that elevate every dish.
+            
+            </p>
+      </div>
+      <div class="team-card">
+        <img src="https://i.pinimg.com/736x/38/6c/30/386c304c0e60a96c0d310eff0eca3feb.jpg" alt="Chef 4">
+        <h3>Chef Meera S.
+        </h3>
+        <p>Pastry & Dessert Chef
+            From molten lava cakes to saffron-infused kulfis, Chef Meera brings sweetness to the flame. Her artistic plating and innovative desserts are always a customer favorite.
+            
+            
+            </p>
+      </div>
+    </div>
   </section>
+  <section class="testimonial-section">
+    <h4 class="subtitle">Testimonials</h4>
+    <h2 class="title">What Our Customers Say</h2>
+  
+    <div class="testimonial-container">
+      <div class="testimonial-card">
+        <p class="testimonial-text">"The food was absolutely wonderful, from preparation to presentation, very pleasing!"</p>
+        <div class="customer-info">
+          <img src="https://i.pinimg.com/736x/87/fa/65/87fa65f5cbdbb45dc7d105fbd55f9976.jpg" alt="Customer 1">
+          <div>
+            <h3>Sanika pawar</h3>
+            <p>Food Blogger</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="testimonial-card">
+        <p class="testimonial-text">"A truly delightful experience. The chefs know how to treat your taste buds!"</p>
+        <div class="customer-info">
+          <img src="https://i.pinimg.com/736x/7b/10/a3/7b10a31f452fe115e388852eaefcbf32.jpg" alt="Customer 2">
+          <div>
+            <h3>Ganesh Kadam</h3>
+            <p>Local Guide</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="testimonial-card">
+        <p class="testimonial-text">"Highly recommended! Great ambiance and delicious dishes. Will come again."</p>
+        <div class="customer-info">
+          <img src="https://i.pinimg.com/736x/54/19/72/5419729e35a77f4de231011bc33f340e.jpg" alt="Customer 3">
+          <div>
+            <h3>Diksha gawas</h3>
+            <p>Regular Customer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 
-  <script src="script.js"></script>
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <div class="footer-box">
+        <h3 class="footer-title">Company</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Reservation</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Condition</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-box">
+        <h3 class="footer-title">Contact</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 143 Street, Thane, Maharashtra</p>
+        <p><i class="fas fa-phone"></i> +91 8828321619</p>
+        <p><i class="fas fa-envelope"></i>kadamsweta92@gmail.com</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+  
+      <div class="footer-box">
+        <h3 class="footer-title">Opening</h3>
+        <p>Monday - Saturday: <br> <strong>09AM - 09PM</strong></p>
+        <p>Sunday: <br> <strong>10AM - 08PM</strong></p>
+      </div>
+  
+      <div class="footer-box">
+        <h3 class="footer-title">Newsletter</h3>
+        <p>Sign up for our newsletter and be the first to know about sizzling new dishes, exclusive offers, chef specials, and upcoming events. Whether you're a food lover or a loyal guest, our updates will keep your taste buds tingling and your table ready. Join our flavor-filled journey today!
+
+        </p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email">
+          <button type="submit">SIGNUP</button>
+        </form>
+      </div>
+  
+    </div>
+  </footer>
+  
 </body>
+
 </html>
